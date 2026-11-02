@@ -1,0 +1,451 @@
+{
+  "utc": "2026-10-31T12:59:38.065406+00:00",
+  "status": "development_trained_candidate_not_independently_qualified",
+  "training_run": "periodic_short27",
+  "training_raw_sha256": "da4672ba4e6f31b745a5e3ee80810b56ab66d0abbfd94701b7f464b57a76435a",
+  "training_phase_assessment_sha256": "ed05bc01b5ea8e87621fcc320d7efcf9244ddf812d664df0297d260a411bd3c1",
+  "fit_features": "local physical input width only;fixed per-gate propagation medians",
+  "normalization_center_ns": 100,
+  "normalization_scale_ns": 100,
+  "words": {
+    "front": {
+      "training_samples": 24,
+      "training_width_range_ns": [
+        3.9999999999997726,
+        196.00000000000023
+      ],
+      "inferred_input_width_domain_ns": [
+        2.0,
+        198.0
+      ],
+      "domain_status": "proposed operating envelope;independent validation pending",
+      "models": {
+        "L1": {
+          "width_coefficients": [
+            99.98878573627385,
+            100.00467493701073
+          ],
+          "fall_anchor_coefficients": [
+            0.1644354944848584,
+            0.0008455885787548437
+          ],
+          "development_width_fit_RMS_ns": 0.02524293697642954,
+          "design_matrix_condition": 1.2768246797270937
+        },
+        "L2_static_candidate": {
+          "width_coefficients": [
+            100.01808715545414,
+            99.97435168232795,
+            -0.04380704172037042,
+            0.035909901596639315
+          ],
+          "fall_anchor_coefficients": [
+            0.16330249165036728,
+            0.013637214713488312,
+            0.002234992685754035,
+            -0.014979190193048542
+          ],
+          "development_width_fit_RMS_ns": 0.018239327524551915,
+          "design_matrix_condition": 11.167324370731498
+        }
+      }
+    },
+    "history1": {
+      "training_samples": 23,
+      "training_width_range_ns": [
+        3.959005995434495,
+        196.0025342347103
+      ],
+      "inferred_input_width_domain_ns": [
+        2.0,
+        198.0
+      ],
+      "domain_status": "proposed operating envelope;independent validation pending",
+      "models": {
+        "L1": {
+          "width_coefficients": [
+            99.92109681249791,
+            99.96946661221436
+          ],
+          "fall_anchor_coefficients": [
+            0.05153710091491849,
+            0.006282457844277867
+          ],
+          "development_width_fit_RMS_ns": 0.05062524475161775,
+          "design_matrix_condition": 1.2520364516731843
+        },
+        "L2_static_candidate": {
+          "width_coefficients": [
+            99.8454077268084,
+            99.84540854053103,
+            0.10447325828167209,
+            0.14321504598442658
+          ],
+          "fall_anchor_coefficients": [
+            0.03724238322280452,
+            -0.012398260040330258,
+            0.019982787411784258,
+            0.021456202568492892
+          ],
+          "development_width_fit_RMS_ns": 0.03651691427398844,
+          "design_matrix_condition": 10.73031419172762
+        }
+      }
+    },
+    "history2": {
+      "training_samples": 22,
+      "training_width_range_ns": [
+        3.890623280869022,
+        195.95216646386416
+      ],
+      "inferred_input_width_domain_ns": [
+        2.0,
+        198.0
+      ],
+      "domain_status": "proposed operating envelope;independent validation pending",
+      "models": {
+        "L1": {
+          "width_coefficients": [
+            99.91780780757708,
+            99.97204930521417
+          ],
+          "fall_anchor_coefficients": [
+            0.0504040565070966,
+            0.008992784240869366
+          ],
+          "development_width_fit_RMS_ns": 0.05287765141089122,
+          "design_matrix_condition": 1.236769191936783
+        },
+        "L2_static_candidate": {
+          "width_coefficients": [
+            99.84475027985235,
+            99.84530188750146,
+            0.10142973045925885,
+            0.14580639516365013
+          ],
+          "fall_anchor_coefficients": [
+            0.038744167640881046,
+            -0.013552338499226334,
+            0.016047658665929627,
+            0.026022043569640312
+          ],
+          "development_width_fit_RMS_ns": 0.03957973832025446,
+          "design_matrix_condition": 10.335608878327038
+        }
+      }
+    },
+    "history3": {
+      "training_samples": 21,
+      "training_width_range_ns": [
+        3.81764459044075,
+        195.8999844624932
+      ],
+      "inferred_input_width_domain_ns": [
+        2.0,
+        198.0
+      ],
+      "domain_status": "proposed operating envelope;independent validation pending",
+      "models": {
+        "L1": {
+          "width_coefficients": [
+            99.9134080492642,
+            99.96842784216813
+          ],
+          "fall_anchor_coefficients": [
+            0.050481304175496754,
+            0.007986692640682226
+          ],
+          "development_width_fit_RMS_ns": 0.05000624438191405,
+          "design_matrix_condition": 1.2349137745481649
+        },
+        "L2_static_candidate": {
+          "width_coefficients": [
+            99.84910797601921,
+            99.84672096966473,
+            0.08959955165327926,
+            0.13970760311005215
+          ],
+          "fall_anchor_coefficients": [
+            0.03799764414468822,
+            -0.013943095385324376,
+            0.017515408038914902,
+            0.025082891573771905
+          ],
+          "development_width_fit_RMS_ns": 0.03814793620478268,
+          "design_matrix_condition": 10.037066804077094
+        }
+      }
+    },
+    "history4": {
+      "training_samples": 20,
+      "training_width_range_ns": [
+        3.74968712917871,
+        195.83685106176426
+      ],
+      "inferred_input_width_domain_ns": [
+        2.0,
+        198.0
+      ],
+      "domain_status": "proposed operating envelope;independent validation pending",
+      "models": {
+        "L1": {
+          "width_coefficients": [
+            99.93976945806627,
+            99.96217591818733
+          ],
+          "fall_anchor_coefficients": [
+            0.02872895870096994,
+            0.0073816349377137744
+          ],
+          "development_width_fit_RMS_ns": 0.048843442264529885,
+          "design_matrix_condition": 1.217426682766941
+        },
+        "L2_static_candidate": {
+          "width_coefficients": [
+            99.88250785906075,
+            99.84813794511953,
+            0.08000069288318912,
+            0.13112928577688354
+          ],
+          "fall_anchor_coefficients": [
+            0.017170686700714997,
+            -0.019782501858608012,
+            0.01596664433824931,
+            0.03138033529708213
+          ],
+          "development_width_fit_RMS_ns": 0.03852982618417843,
+          "design_matrix_condition": 10.304167082008036
+        }
+      }
+    },
+    "s4c2": {
+      "training_samples": 20,
+      "training_width_range_ns": [
+        3.937265784605188,
+        195.9064900624378
+      ],
+      "inferred_input_width_domain_ns": [
+        2.0,
+        198.0
+      ],
+      "domain_status": "proposed operating envelope;independent validation pending",
+      "models": {
+        "L1": {
+          "width_coefficients": [
+            99.95557678129056,
+            99.94556033446271
+          ],
+          "fall_anchor_coefficients": [
+            0.0070437857298173735,
+            0.014784574062826681
+          ],
+          "development_width_fit_RMS_ns": 0.031529631414954094,
+          "design_matrix_condition": 1.5331628712537846
+        },
+        "L2_static_candidate": {
+          "width_coefficients": [
+            99.93081829221443,
+            99.8678542437359,
+            0.04560826420103581,
+            0.10262149395828146
+          ],
+          "fall_anchor_coefficients": [
+            0.00846240151445373,
+            -0.0048026810549747535,
+            -0.007090346956723652,
+            0.029829525092429497
+          ],
+          "development_width_fit_RMS_ns": 0.01955128273549337,
+          "design_matrix_condition": 7.233810052753335
+        }
+      }
+    }
+  },
+  "gates": {
+    "g0_and": {
+      "kind": "and",
+      "inputs": [
+        "front",
+        "history1"
+      ],
+      "rise_delay_ns": 0.09076794655629783,
+      "fall_delay_ns": 0.07740679649782578,
+      "training_samples": 20
+    },
+    "g0_or": {
+      "kind": "or",
+      "inputs": [
+        "front",
+        "history1"
+      ],
+      "rise_delay_ns": 0.08668360292438138,
+      "fall_delay_ns": 0.10725976996445752,
+      "training_samples": 20
+    },
+    "g1_and": {
+      "kind": "and",
+      "inputs": [
+        "history2",
+        "history3"
+      ],
+      "rise_delay_ns": 0.09836218547252429,
+      "fall_delay_ns": 0.06339759653837973,
+      "training_samples": 20
+    },
+    "g1_or": {
+      "kind": "or",
+      "inputs": [
+        "history2",
+        "history3"
+      ],
+      "rise_delay_ns": 0.09165673970574062,
+      "fall_delay_ns": 0.12021963901361232,
+      "training_samples": 20
+    },
+    "g2_and": {
+      "kind": "and",
+      "inputs": [
+        "g0_or",
+        "g1_and"
+      ],
+      "rise_delay_ns": 0.055860877255781816,
+      "fall_delay_ns": 0.049163190256194866,
+      "training_samples": 20
+    },
+    "g2_or": {
+      "kind": "or",
+      "inputs": [
+        "g0_or",
+        "g1_and"
+      ],
+      "rise_delay_ns": 0.06119534795323034,
+      "fall_delay_ns": 0.08524867030678251,
+      "training_samples": 20
+    },
+    "g3_and": {
+      "kind": "and",
+      "inputs": [
+        "g1_or",
+        "history4"
+      ],
+      "rise_delay_ns": 0.08487935491575627,
+      "fall_delay_ns": 0.0719216744203095,
+      "training_samples": 20
+    },
+    "g3_or": {
+      "kind": "or",
+      "inputs": [
+        "g1_or",
+        "history4"
+      ],
+      "rise_delay_ns": 0.05235722570705548,
+      "fall_delay_ns": 0.07808044907596923,
+      "training_samples": 20
+    },
+    "g4_or": {
+      "kind": "or",
+      "inputs": [
+        "g0_and",
+        "g2_and"
+      ],
+      "rise_delay_ns": 0.04901678403996357,
+      "fall_delay_ns": 0.06307866938436746,
+      "training_samples": 20
+    },
+    "g5_and": {
+      "kind": "and",
+      "inputs": [
+        "g2_or",
+        "g3_and"
+      ],
+      "rise_delay_ns": 0.05557637828837869,
+      "fall_delay_ns": 0.048589769208547295,
+      "training_samples": 20
+    },
+    "g5_or": {
+      "kind": "or",
+      "inputs": [
+        "g2_or",
+        "g3_and"
+      ],
+      "rise_delay_ns": 0.05171684492188433,
+      "fall_delay_ns": 0.07499492253168683,
+      "training_samples": 20
+    },
+    "g6_or": {
+      "kind": "or",
+      "inputs": [
+        "g4_or",
+        "g5_and"
+      ],
+      "rise_delay_ns": 0.04560376857978099,
+      "fall_delay_ns": 0.07405210362571779,
+      "training_samples": 20
+    },
+    "g7_and": {
+      "kind": "and",
+      "inputs": [
+        "g5_or",
+        "g3_or"
+      ],
+      "rise_delay_ns": 0.05287795773904236,
+      "fall_delay_ns": 0.04874224759282697,
+      "training_samples": 20
+    },
+    "g8_and": {
+      "kind": "and",
+      "inputs": [
+        "g6_or",
+        "g7_and"
+      ],
+      "rise_delay_ns": 0.09601266141726228,
+      "fall_delay_ns": 0.06381706349634442,
+      "training_samples": 20
+    }
+  },
+  "architecture": {
+    "front": {
+      "input": "tin",
+      "phase": 260,
+      "kind": "frontend"
+    },
+    "history1": {
+      "input": "front",
+      "phase": 460,
+      "kind": "history"
+    },
+    "history2": {
+      "input": "history1",
+      "phase": 660,
+      "kind": "history"
+    },
+    "history3": {
+      "input": "history2",
+      "phase": 860,
+      "kind": "history"
+    },
+    "history4": {
+      "input": "history3",
+      "phase": 1060,
+      "kind": "history"
+    },
+    "s4c2": {
+      "input": "g8_and",
+      "phase": 1260,
+      "kind": "sort"
+    }
+  },
+  "external_width_domain_ns": [
+    4,
+    196
+  ],
+  "PVT": {
+    "corner": "tt",
+    "temperature_C": 27,
+    "supply_V": 1.8
+  },
+  "detailed_dynamic_state_predictions": false,
+  "static_card_does_not_qualify_full_dynamic_L2": true,
+  "sampled_test_internal_states_allowed": false,
+  "new_independent_seed_opened": false
+}

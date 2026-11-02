@@ -1,0 +1,62 @@
+// Original project code, MIT. Native electrical ports for OSDI comparisons.
+nature Voltage
+  units = "V";
+  access = V;
+  abstol = 1e-8;
+endnature
+nature Current
+  units = "A";
+  access = I;
+  abstol = 1e-14;
+endnature
+discipline electrical
+  potential Voltage;
+  flow Current;
+enddiscipline
+
+// L0 aligned-pulse MIN/MAX: intersection/union of electrical high intervals.
+module tmsp_mm_l0(a,b,ymin,ymax);
+  input a,b;
+  output ymin,ymax;
+  electrical a,b,ymin,ymax;
+  analog begin
+    V(ymin) <+ min(V(a),V(b));
+    V(ymax) <+ max(V(a),V(b));
+  end
+endmodule
+
+// L0 TVC with externally declared reset, no stochastic or edge-charge terms.
+module tmsp_tvc_l0(tin,rst,cap);
+  input tin,rst;
+  inout cap;
+  electrical tin,rst,cap;
+  parameter real C=1e-12;
+  parameter real gain=5e6; // V/s of input high duration
+  parameter real threshold=0.9;
+  parameter real reset_R=1.0;
+  analog begin
+    I(cap) <+ C*ddt(V(cap));
+    if(V(tin)>threshold) I(cap) <+ -C*gain;
+    if(V(rst)>threshold) I(cap) <+ V(cap)/reset_R;
+  end
+endmodule
+
+// INT continuous-state kernel. Edge increments are disabled in this isolated
+// engine test and remain a separate full-card/event-engine acceptance gate.
+module tmsp_int_continuous(tin,rst,state);
+  input tin,rst;
+  inout state;
+  electrical tin,rst,state;
+  parameter real C=10e-12;
+  parameter real g0=5e5; // V/s
+  parameter real g1=0.0; // 1/s
+  parameter real tau=200e-6;
+  parameter real initial_v=0.1;
+  parameter real threshold=0.9;
+  parameter real reset_R=1.0;
+  analog begin
+    I(state) <+ C*ddt(V(state)) + C*V(state)/tau;
+    if(V(tin)>threshold) I(state) <+ -C*(g0+g1*V(state));
+    if(V(rst)>threshold) I(state) <+ (V(state)-initial_v)/reset_R;
+  end
+endmodule

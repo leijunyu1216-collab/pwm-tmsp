@@ -1,0 +1,19 @@
+{
+  "utc": "2026-11-01T23:47:28.034437+00:00",
+  "primary_sources": {
+    "network1000": "artifacts/native_time_v64/acceptance.json",
+    "all_target_events": "artifacts/native_time_v64/scoped_event_inventory.json",
+    "development214": "artifacts/snapshot_campaign_v61/regression_scoring/checkpoint.json",
+    "numerical_control": "artifacts/ground_reduction_v59/physical_qualification.json",
+    "component_MOS": "artifacts/system_physical_v61/all_mos/summary.json",
+    "component_R": "artifacts/system_physical_v61/resistors/summary.json",
+    "component_MIM": "artifacts/system_physical_v57/passive_array_routefix/summary.json"
+  },
+  "file_sha256": {
+    "network1000_model_metrics.csv": "5eeb52da4e843194d9c0d8cfe77bdc623c0cb4949785aef7ebc2499e2ca5d418",
+    "network1000_outputs.csv": "742ce676870db0eadd1f19431be60dcfd601b03213367e26ad66fd3d0b23ef3c",
+    "network1000_summary.json": "2b6658a0559f1bf0e241e0874cbf61c9d88836b38c3ff3e98d44aed581c09463"
+  },
+  "raw_sha256": "4a65aaf597263b978eb9da002777f0029d3e8d04e34313841e3555605be7aebf",
+  "prediction_sha256": "2af47043927e596ec3e06d127c77c451b79007b99beaa3bc8907033a38d3aa35"
+}

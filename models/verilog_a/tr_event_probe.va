@@ -1,0 +1,14 @@
+// Parser-capability probe, MIT. This is not a published TR implementation.
+`include "primitives.va"
+module tmsp_tr_event_probe(tin,clk,out);
+  input tin,clk;
+  output out;
+  electrical tin,clk,out;
+  real rise_time,width;
+  analog begin
+    @(initial_step) begin rise_time=0; width=0; end
+    @(cross(V(tin)-0.9,+1)) rise_time=$abstime;
+    @(cross(V(tin)-0.9,-1)) width=$abstime-rise_time;
+    V(out) <+ 0;
+  end
+endmodule

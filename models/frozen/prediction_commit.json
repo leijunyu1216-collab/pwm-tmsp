@@ -1,0 +1,11 @@
+{
+  "utc": "2026-11-01T09:59:01.675910+00:00",
+  "official_freeze_sha256": "0bb14329c7ba397cca992d8baf41f2d2f14239b5d1f1314e699948059ed2f18b",
+  "prediction_sha256": "2af47043927e596ec3e06d127c77c451b79007b99beaa3bc8907033a38d3aa35",
+  "input_sha256": "e7eb44d8459f30014080418195b18dadf39323d8051f2b84ddb5acdd94ffc7f7",
+  "evaluation_contract_sha256": "abc1de75ae9432e50ab6fd25949ff4a0034ae8c0b98a63045cc5d3d653334d49",
+  "electrical_sha256": "ca1651a8bb4f210d052aad823fba75fe3c34f9cde9fcac40eadb3e034c05e575",
+  "physical_reference_started": false,
+  "test_states_or_outputs_used_in_prediction": false,
+  "model_refit": false
+}

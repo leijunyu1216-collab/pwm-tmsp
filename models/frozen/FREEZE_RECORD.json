@@ -1,0 +1,300 @@
+{
+  "source_freeze_sha256": "0bb14329c7ba397cca992d8baf41f2d2f14239b5d1f1314e699948059ed2f18b",
+  "freeze_utc": "2026-11-01T09:58:59.695154+00:00",
+  "original_model_card_sha256": "1a45ba6622224ec9e91b37193c7b44ea736f5b2c26f2177330ea40ee5112eadf",
+  "prediction_commit_sha256": "8bd13a82f2069db9362f8b0789af48f039588110e8d45c770fa581b61ce2a3d0",
+  "prediction_sha256": "2af47043927e596ec3e06d127c77c451b79007b99beaa3bc8907033a38d3aa35",
+  "input_sha256": "e7eb44d8459f30014080418195b18dadf39323d8051f2b84ddb5acdd94ffc7f7",
+  "original_raw_sha256": "4a65aaf597263b978eb9da002777f0029d3e8d04e34313841e3555605be7aebf",
+  "unchanged_frozen_software": [
+    {
+      "original_path": "benchmarks/analyze_pair_v12.py",
+      "release_path": "models/frozen/source/benchmarks/analyze_pair_v12.py",
+      "sha256": "d711f084c63d2fcdeb38917f7ef52e4f03cfb9a6e285eb630b12a7cfff1e73d5"
+    },
+    {
+      "original_path": "benchmarks/assess_capture_network_v36.py",
+      "release_path": "models/frozen/source/benchmarks/assess_capture_network_v36.py",
+      "sha256": "0aaa02e16086ab5a72760c201d62ae9a72f23652d8ab7bc1284a84b7ef84b9ae"
+    },
+    {
+      "original_path": "benchmarks/assess_wide_v34.py",
+      "release_path": "models/frozen/source/benchmarks/assess_wide_v34.py",
+      "sha256": "10da9b7a1bb416dfd6b6229f916729e242afa9a247b32962b1d0c1594938ec43"
+    },
+    {
+      "original_path": "benchmarks/audit_cost_diagnosis_v56.py",
+      "release_path": "models/frozen/source/benchmarks/audit_cost_diagnosis_v56.py",
+      "sha256": "5827a5595e96618e6c858ae0611985b1f8bc2d28bdcdcada5f59d524b6a089e1"
+    },
+    {
+      "original_path": "benchmarks/bounded_phase_scorer_v56.py",
+      "release_path": "models/frozen/source/benchmarks/bounded_phase_scorer_v56.py",
+      "sha256": "ed04e9fa1ff9f94a8920dc812e0461dce80a739457b09355be6db737264439fa"
+    },
+    {
+      "original_path": "benchmarks/campaign_live_v57.py",
+      "release_path": "models/frozen/source/benchmarks/campaign_live_v57.py",
+      "sha256": "696cd93fe350e92ec8203ecf199c0eedf9e111a3ff24e6bd57f9cf77d4699807"
+    },
+    {
+      "original_path": "benchmarks/campaign_resources_v57.py",
+      "release_path": "models/frozen/source/benchmarks/campaign_resources_v57.py",
+      "sha256": "ee8f8299c31238efd9f56f42ddd00babdf2e9e6ab0565bdebd853d33d4e63da5"
+    },
+    {
+      "original_path": "benchmarks/cost_diagnosis_v56.py",
+      "release_path": "models/frozen/source/benchmarks/cost_diagnosis_v56.py",
+      "sha256": "f1373319376cf658d37366fd29237ea5f8b5cbb6dcb5dc2f8ffe21ea9df20a34"
+    },
+    {
+      "original_path": "benchmarks/crossing_index_v56.py",
+      "release_path": "models/frozen/source/benchmarks/crossing_index_v56.py",
+      "sha256": "7885df7c45dafa1806c9c06822e7556fc33f5b7d1d236d4fce33451ad6c57340"
+    },
+    {
+      "original_path": "benchmarks/flatten_nominal_v30.py",
+      "release_path": "models/frozen/source/benchmarks/flatten_nominal_v30.py",
+      "sha256": "38a742ccdd29f23f59dcc1c55820d7b96324c432bc94ee633105ce75c62c9531"
+    },
+    {
+      "original_path": "benchmarks/freeze_joint_v57.py",
+      "release_path": "models/frozen/source/benchmarks/freeze_joint_v57.py",
+      "sha256": "66b8147d85e4ef4bcc835653366e50b48daccbfa3a7acc5b3a58c01ad4a38d49"
+    },
+    {
+      "original_path": "benchmarks/joint_campaign_v57.py",
+      "release_path": "models/frozen/source/benchmarks/joint_campaign_v57.py",
+      "sha256": "b7e0c8a6da474c9f3a3ee95a09d2bdfd91282cbeabc1af5fa8e5e59757c3ef3d"
+    },
+    {
+      "original_path": "benchmarks/live_spice.py",
+      "release_path": "models/frozen/source/benchmarks/live_spice.py",
+      "sha256": "ceee68968275854360ca4e1cff148f351546f9dc8bcd004ec5970e837e03ea93"
+    },
+    {
+      "original_path": "benchmarks/median_fall_v33.py",
+      "release_path": "models/frozen/source/benchmarks/median_fall_v33.py",
+      "sha256": "404cb2a839ff04c67598150228d2e3be63a81414c9eb05c374d5e78a1a814194"
+    },
+    {
+      "original_path": "benchmarks/network_capture_cap_v36.py",
+      "release_path": "models/frozen/source/benchmarks/network_capture_cap_v36.py",
+      "sha256": "a9050823bbc8f517162220b3832b01aa84a64e3b8001a084c996d6278fdd6b7b"
+    },
+    {
+      "original_path": "benchmarks/network_streaming_pilot_v52.py",
+      "release_path": "models/frozen/source/benchmarks/network_streaming_pilot_v52.py",
+      "sha256": "9afd9b3ee29f515962e07a84b093a29a24b5ce8f53806fb3fa8f275b39cdbfb6"
+    },
+    {
+      "original_path": "benchmarks/periodic_grid_v57.py",
+      "release_path": "models/frozen/source/benchmarks/periodic_grid_v57.py",
+      "sha256": "a693a5dc76db56c5b47f2c66dd59363435e41a969d894ee832b8955c452f05f7"
+    },
+    {
+      "original_path": "benchmarks/physical_common.py",
+      "release_path": "models/frozen/source/benchmarks/physical_common.py",
+      "sha256": "1d2db14f0315d828f799d466c76c85709db1dfb20701d7169ec2a8c002ea198c"
+    },
+    {
+      "original_path": "benchmarks/prune_model_bins_v56.py",
+      "release_path": "models/frozen/source/benchmarks/prune_model_bins_v56.py",
+      "sha256": "3f3cd33d52736b929c6c6075953904656ca43aba774e3a9eeee9790fe57687f4"
+    },
+    {
+      "original_path": "benchmarks/qualify_software_v57.py",
+      "release_path": "models/frozen/source/benchmarks/qualify_software_v57.py",
+      "sha256": "66560854c0b63559e90b2c80dc5feb16716db7c2f8b0bb059869f038dbd3b33f"
+    },
+    {
+      "original_path": "benchmarks/register_inventory_v8.py",
+      "release_path": "models/frozen/source/benchmarks/register_inventory_v8.py",
+      "sha256": "5d539b1535bce308a5c3d557369f8baf2af1bd9b3b55b3edad063f16b94f39e6"
+    },
+    {
+      "original_path": "benchmarks/retimed_contract_v56.py",
+      "release_path": "models/frozen/source/benchmarks/retimed_contract_v56.py",
+      "sha256": "272ac918103cb4f7d12f41c8c6e2a256788d5ca6224549b6f82338b968124bf8"
+    },
+    {
+      "original_path": "benchmarks/retimed_lattice_v56.py",
+      "release_path": "models/frozen/source/benchmarks/retimed_lattice_v56.py",
+      "sha256": "124922b5de8a1f3789ba3525604e3d45179cf41df96bbaf048f4673a967bde35"
+    },
+    {
+      "original_path": "benchmarks/retimed_prediction_v56.py",
+      "release_path": "models/frozen/source/benchmarks/retimed_prediction_v56.py",
+      "sha256": "47ce29e9aac4c7f878592baa08e958d0b36f5b3aee2e75c3cbf5b79cf7de9fa7"
+    },
+    {
+      "original_path": "benchmarks/retimed_run_v56.py",
+      "release_path": "models/frozen/source/benchmarks/retimed_run_v56.py",
+      "sha256": "0181b3a93a83634c6db828811eabd0c70ecf9d9aa26bd4343d39a18e6a6d9508"
+    },
+    {
+      "original_path": "benchmarks/retimed_workload_v56.py",
+      "release_path": "models/frozen/source/benchmarks/retimed_workload_v56.py",
+      "sha256": "3c8d93887857f6a3e63c282fa51456118de2b6e807e5ab21cb096e5d4771bc62"
+    },
+    {
+      "original_path": "benchmarks/spice_stage_probe.py",
+      "release_path": "models/frozen/source/benchmarks/spice_stage_probe.py",
+      "sha256": "9015401fcb2bd701520227bc47cb5a5e6dc0fbb0ffdd786db0f52b398380c3f6"
+    },
+    {
+      "original_path": "benchmarks/spice_stream_probe_v34.py",
+      "release_path": "models/frozen/source/benchmarks/spice_stream_probe_v34.py",
+      "sha256": "e6901af533884d85df69b1e775697c2b4fed180fa94dae73de6016753a458db7"
+    },
+    {
+      "original_path": "benchmarks/streaming_cli_probe_v47.py",
+      "release_path": "models/frozen/source/benchmarks/streaming_cli_probe_v47.py",
+      "sha256": "3625d96690f28dbbec52e3536bc4b602cbcb54f6296d176a721d67cba5ac83df"
+    },
+    {
+      "original_path": "benchmarks/validation_guard_v41.py",
+      "release_path": "models/frozen/source/benchmarks/validation_guard_v41.py",
+      "sha256": "6ab7623168d65143f6a48484e273e20cb11c57accf7832febb51608e8b2a3a11"
+    },
+    {
+      "original_path": "benchmarks/wide_network_v34.py",
+      "release_path": "models/frozen/source/benchmarks/wide_network_v34.py",
+      "sha256": "cfc4cd1295ecb18f518d0eabe425d355e011e6e90b5a1bfd98039779c6db92b0"
+    },
+    {
+      "original_path": "tests/test_campaign_v57.py",
+      "release_path": "models/frozen/source/tests/test_campaign_v57.py",
+      "sha256": "95591ce1faafd0b5d0e118df58057fbe11486e38464083b102f1286cbea84432"
+    },
+    {
+      "original_path": "benchmarks/run_corrected_campaign_v58.py",
+      "release_path": "models/frozen/source/benchmarks/run_corrected_campaign_v58.py",
+      "sha256": "01dad11103d7a6bf0b627fb9b3284aa4f4ef1ce8b694cbfbd69ba06aa96bd4e6"
+    },
+    {
+      "original_path": "benchmarks/clock_table_v58.py",
+      "release_path": "models/frozen/source/benchmarks/clock_table_v58.py",
+      "sha256": "17b4da9072b4a0d659e55042e1c54e0282545ab35c954c0490948bb25fe337bf"
+    },
+    {
+      "original_path": "benchmarks/lossless_raw_archive_v58.py",
+      "release_path": "models/frozen/source/benchmarks/lossless_raw_archive_v58.py",
+      "sha256": "9104a953ef95b374898cdd091ddb6099b3c6a6388095553c4bfa93021df255dd"
+    },
+    {
+      "original_path": "benchmarks/post_joint_v57.py",
+      "release_path": "models/frozen/source/benchmarks/post_joint_v57.py",
+      "sha256": "6c86371871b1e5a5f253c7269c8cc0864217cba3163f500fea9d96392f39e4d1"
+    },
+    {
+      "original_path": "tests/test_clock_repair_v58.py",
+      "release_path": "models/frozen/source/tests/test_clock_repair_v58.py",
+      "sha256": "8532ff3969f0aba5d750be2296d865e7ac672d84577dcda81fe4f17b91bfbf07"
+    },
+    {
+      "original_path": "benchmarks/run_recovered_campaign_v59.py",
+      "release_path": "models/frozen/source/benchmarks/run_recovered_campaign_v59.py",
+      "sha256": "b0169b8ddd59126cd8365bf595b29d7e0115e561bc149a1c957785d3a83d19e8"
+    },
+    {
+      "original_path": "benchmarks/ground_alias_v59.py",
+      "release_path": "models/frozen/source/benchmarks/ground_alias_v59.py",
+      "sha256": "859fa26bf4ed3d2162d9b4164f5d03ade09d446daa56816b005492eca6f4d4cd"
+    },
+    {
+      "original_path": "tests/test_ground_reduction_v59.py",
+      "release_path": "models/frozen/source/tests/test_ground_reduction_v59.py",
+      "sha256": "ec510a6096b9a4445e57e900d926f952040deb1fa2f9809d4d672eeb0bd6ccfc"
+    },
+    {
+      "original_path": "benchmarks/ordered_observations_v60.py",
+      "release_path": "models/frozen/source/benchmarks/ordered_observations_v60.py",
+      "sha256": "b39da669495b6ed06338bbc27568a2838feb89b738c5716e47ee0d7cfc625e8b"
+    },
+    {
+      "original_path": "benchmarks/campaign_observations_v60.py",
+      "release_path": "models/frozen/source/benchmarks/campaign_observations_v60.py",
+      "sha256": "545616cde17b94baa13f3bbb1472b349b999c64b248574d3dac8151f8a3fd9be"
+    },
+    {
+      "original_path": "benchmarks/audit_current_events_v60.py",
+      "release_path": "models/frozen/source/benchmarks/audit_current_events_v60.py",
+      "sha256": "c8f4c09f2bcb78e74491f510314f624efcd217b2c1e0b52aafc1eb63770777c0"
+    },
+    {
+      "original_path": "benchmarks/qualify_observations_v60.py",
+      "release_path": "models/frozen/source/benchmarks/qualify_observations_v60.py",
+      "sha256": "67ada1a2c4db082231d7126de056087fcfa672d00330102dfc279c0ee24d685e"
+    },
+    {
+      "original_path": "benchmarks/run_ordered_campaign_v60.py",
+      "release_path": "models/frozen/source/benchmarks/run_ordered_campaign_v60.py",
+      "sha256": "b6c114dc1302aeee87fa521f9b3fceb840085ea0cc9fea837f169d66eee8d102"
+    },
+    {
+      "original_path": "benchmarks/status_ordered_campaign_v60.py",
+      "release_path": "models/frozen/source/benchmarks/status_ordered_campaign_v60.py",
+      "sha256": "98202ae08fb118bcfadd2a78d2c67040324da30eb2a4612eeaa5910a3fc64e31"
+    },
+    {
+      "original_path": "tests/test_ordered_observations_v60.py",
+      "release_path": "models/frozen/source/tests/test_ordered_observations_v60.py",
+      "sha256": "9afcf88ce6640743245003820103b0af530d708f2a2f67d2ca055d2bc1840e86"
+    },
+    {
+      "original_path": "benchmarks/snapshot_observations_v61.py",
+      "release_path": "models/frozen/source/benchmarks/snapshot_observations_v61.py",
+      "sha256": "5c1f7846d60d1a954db1b67994283821f894e80bd67c56bce9de93182ce4aeb4"
+    },
+    {
+      "original_path": "benchmarks/snapshot_controller_v61.py",
+      "release_path": "models/frozen/source/benchmarks/snapshot_controller_v61.py",
+      "sha256": "9120ee0e7aa8053f28ed6de3e939b62a65594de8f374b7cf78691309950660aa"
+    },
+    {
+      "original_path": "benchmarks/regression_admission_v61.py",
+      "release_path": "models/frozen/source/benchmarks/regression_admission_v61.py",
+      "sha256": "a3aff78d982a92827c4574f40ba50c0c50806d389ac717fb406515f155932da1"
+    },
+    {
+      "original_path": "benchmarks/qualify_snapshot_v61.py",
+      "release_path": "models/frozen/source/benchmarks/qualify_snapshot_v61.py",
+      "sha256": "99121054470264d5ec6298fd5c3ced2db62794c616fe6e7a89f45f05e199de5d"
+    },
+    {
+      "original_path": "benchmarks/run_snapshot_campaign_v61.py",
+      "release_path": "models/frozen/source/benchmarks/run_snapshot_campaign_v61.py",
+      "sha256": "8081ba298ea0b327cb6b2b2e42cd747a8d291c4f073f3de6c0230a44594fcc4e"
+    },
+    {
+      "original_path": "benchmarks/status_snapshot_campaign_v61.py",
+      "release_path": "models/frozen/source/benchmarks/status_snapshot_campaign_v61.py",
+      "sha256": "92fa431a6d99c7b3b48bcaa38a4d47e8dd1df9c2d847fbf646414a8d86ccdd15"
+    },
+    {
+      "original_path": "tests/test_snapshot_v61.py",
+      "release_path": "models/frozen/source/tests/test_snapshot_v61.py",
+      "sha256": "e082125ce6bf661107923152972e7b4ffd672590072b2862fca57ca746a66c60"
+    }
+  ],
+  "evidence_scope": {
+    "physical_targets_completed": 1000,
+    "physical_warmup_outputs": 100,
+    "scored_word_outputs": 6000,
+    "planned_targets": 5000,
+    "full_5000_completed": false,
+    "full_system_PPA_completed": false,
+    "full_system_three_noise_completed": false,
+    "detailed_dynamic_L2_network_qualification": false
+  },
+  "protocol_history": {
+    "MM_edge_P99_original_limit_percent_FS": 1.0,
+    "MM_edge_P99_revised_profile_percent_FS": 1.5,
+    "MM_profile_amended_after_observation": true,
+    "MM_FF_observed_P99_percent_FS": 1.0202,
+    "network1000_evaluator_corrected_after_exposure": true,
+    "network1000_physical_parameters_inputs_and_predictions_unchanged": true,
+    "network1000_original_acceptance_limits_unchanged": true
+  }
+}

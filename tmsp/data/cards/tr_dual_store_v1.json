@@ -1,0 +1,108 @@
+{
+  "schema": "tmsp-dual-store-tr/v1",
+  "config": {
+    "kind": "TR",
+    "layer": "L2",
+    "params": {
+      "alpha0": 1.0049674197608,
+      "beta0": 22465100.30229422,
+      "alpha_delta": 0.03993452687019183,
+      "beta_delta": 1803872.657998398,
+      "q_w2": -90524601.97961721,
+      "q_w3": 116968635.96616063,
+      "latency": 0.1239267660263684,
+      "supply_sens": -22932197.999026693,
+      "temp_sens": -2295.2648396889454,
+      "vdd0": 1.8,
+      "trigger_mode": "clk",
+      "lambda_leak": 13.84920446907649
+    },
+    "model_id": "TR.sky130.tt.27.1.8.L2.triggered_capture.v1",
+    "input_width": [
+      20200000,
+      100200000
+    ],
+    "output_width": [
+      1,
+      200000000
+    ],
+    "voltage_range": [
+      -10.0,
+      10.0
+    ],
+    "anchor": [
+      27.0,
+      1.8
+    ],
+    "environment": [
+      [
+        27.0,
+        27.0
+      ],
+      [
+        1.8,
+        1.8
+      ]
+    ],
+    "stochastic": false,
+    "exact_pairs": null,
+    "enable_secondary": true,
+    "active_mechanisms": [
+      "static_cubic"
+    ]
+  },
+  "scheduler": {
+    "period_fs": 200000000,
+    "trigger_phase_fs": 160100000,
+    "warmup": 100,
+    "t0_fs": 0
+  },
+  "resources": {
+    "capture_stores": 2,
+    "replay_banks": 2,
+    "input_demux": "ideal phase-assigned stimulus",
+    "output_merge": "transistor NOR+INV"
+  },
+  "validation": {
+    "status": "scoped_contiguous_holdout_pass",
+    "metrics": {
+      "layer": "L2",
+      "cycles": 5120,
+      "edges": 10240,
+      "rms_pct_fs": 0.29131697535941836,
+      "p99_abs_pct_fs": 0.6717350170309453,
+      "max_abs_pct_fs": 0.8417680055999756,
+      "inl_pct_fs": 0.41997298445011677
+    },
+    "envelope": "tt/27C/1.8V;programmed20-100ns;5MS/s",
+    "source": "artifacts/tr_schedule_long_v2/summary.json"
+  },
+  "provenance": {
+    "source": "design\\baseline\\data\\fits\\reference_params.csv",
+    "source_sha256": "b8a9872dee56a9a1bf1fc226440ab79f2bc7325fd29e10ff7655f59017aa01e4",
+    "sigma_ind": null,
+    "sigma_ind_status": "unidentified",
+    "execution_mode": "deterministic",
+    "parameter_scope": "exact_node",
+    "replay_full_fit_envelope": true,
+    "evidence": "transistor schematic; ideal passives",
+    "timing_validated": false,
+    "dynamics_validated": false,
+    "stochastic_validated": false,
+    "reference_adjustments": {
+      "lambda_leak_identified_not_enabled": 13.84920446907649
+    },
+    "reference_transforms": {
+      "programmed_to_measured_width_shift_fs": 200000.0,
+      "programmed_to_trigger_crossing_ns": 0.1,
+      "latency_programmed_ns": 0.2239267660263684,
+      "latency_crossing_ns": 0.1239267660263684,
+      "reference_hold_formula": "H_ns=79.8+latency_crossing_ns (end-aligned baseline)",
+      "hold_sensitivity_fs_per_ns": 13.84920446907649
+    },
+    "placement": "external_triggered_capture",
+    "fit_performed": false,
+    "hold_reference_association": "prediction_under_test"
+  },
+  "full_project_certification": false
+}

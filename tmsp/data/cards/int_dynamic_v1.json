@@ -1,0 +1,137 @@
+[
+  {
+    "schema": "tmsp-int-dynamic/v1",
+    "node": {
+      "corner": "tt",
+      "temp": 27.0,
+      "vdd": 1.8
+    },
+    "active_mechanisms": [
+      "state_dependent_integration",
+      "edge_charge"
+    ],
+    "parameters": {
+      "g0_v_ns": 0.0005537421233961235,
+      "g1_per_ns": -1.5337953663035744e-06,
+      "tau_ns": 200290.36968024843,
+      "q_on_v": [
+        -0.0005396385680265795,
+        -2.7724903014194742e-05
+      ],
+      "q_off_v": [
+        4.12555644695392e-05,
+        1.960158614052561e-06
+      ]
+    },
+    "width_equivalent_gain_fs_v": 192179079.15156236,
+    "initial_state": "explicit voltage at t=0",
+    "envelope": {
+      "state_v": [
+        0.0,
+        0.45429528903358757
+      ],
+      "programmed_width_ns": [
+        20.0,
+        100.0
+      ]
+    },
+    "validation": {
+      "inside": true,
+      "rms_state_pct_fs": 0.002716254476879431,
+      "scope": "12 held-out sequences across three nodes; voltage state",
+      "status": "scoped_holdout_pass"
+    },
+    "fit_voltage_rms_v": 5.2484777255939296e-06,
+    "envelope_source": "per-node observed training coverage; no holdout-dependent expansion"
+  },
+  {
+    "schema": "tmsp-int-dynamic/v1",
+    "node": {
+      "corner": "ss",
+      "temp": 125.0,
+      "vdd": 1.62
+    },
+    "active_mechanisms": [
+      "state_dependent_integration",
+      "edge_charge"
+    ],
+    "parameters": {
+      "g0_v_ns": 0.0004845430748309099,
+      "g1_per_ns": -1.1513425756330875e-06,
+      "tau_ns": 198876.6457682943,
+      "q_on_v": [
+        -0.0005373764956161576,
+        -2.3803644596376796e-05
+      ],
+      "q_off_v": [
+        4.797349402223359e-05,
+        1.2656883538775739e-05
+      ]
+    },
+    "width_equivalent_gain_fs_v": 213438526.82214352,
+    "initial_state": "explicit voltage at t=0",
+    "envelope": {
+      "state_v": [
+        0.0,
+        0.44739066004968747
+      ],
+      "programmed_width_ns": [
+        20.0,
+        100.0
+      ]
+    },
+    "validation": {
+      "inside": true,
+      "rms_state_pct_fs": 0.0021600345333345145,
+      "scope": "12 held-out sequences across three nodes; voltage state",
+      "status": "scoped_holdout_pass"
+    },
+    "fit_voltage_rms_v": 4.548803413899171e-06,
+    "envelope_source": "per-node observed training coverage; no holdout-dependent expansion"
+  },
+  {
+    "schema": "tmsp-int-dynamic/v1",
+    "node": {
+      "corner": "ff",
+      "temp": -40.0,
+      "vdd": 1.98
+    },
+    "active_mechanisms": [
+      "state_dependent_integration",
+      "edge_charge"
+    ],
+    "parameters": {
+      "g0_v_ns": 0.0006602360930032568,
+      "g1_per_ns": -1.9527710733587207e-06,
+      "tau_ns": 200344.3015335932,
+      "q_on_v": [
+        -0.00044008789025528765,
+        -3.203149902575498e-05
+      ],
+      "q_off_v": [
+        3.4627010112828935e-05,
+        5.337374749092899e-07
+      ]
+    },
+    "width_equivalent_gain_fs_v": 157958548.89847788,
+    "initial_state": "explicit voltage at t=0",
+    "envelope": {
+      "state_v": [
+        0.0,
+        0.46502946361056746
+      ],
+      "programmed_width_ns": [
+        20.0,
+        100.0
+      ]
+    },
+    "validation": {
+      "inside": true,
+      "rms_state_pct_fs": 0.010659872695113419,
+      "scope": "12 held-out sequences across three nodes; voltage state",
+      "status": "scoped_holdout_pass"
+    },
+    "fit_voltage_rms_v": 5.437116585886329e-06,
+    "envelope_source": "per-node observed training coverage; no holdout-dependent expansion"
+  }
+]

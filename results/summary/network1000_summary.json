@@ -1,0 +1,80 @@
+{
+  "utc": "2026-11-01T23:47:27.974559+00:00",
+  "warmups": 100,
+  "valid_warmups": 100,
+  "targets": 1000,
+  "word_outputs": 6000,
+  "phase_transactions": 6000,
+  "auxiliary_transactions": 5000,
+  "final_target_edges": 2000,
+  "width_max_ns": 1.2791188480719882,
+  "anchor_max_ns": 0.1814895428105956,
+  "availability_nominal_ns": 620.0,
+  "max_actual_availability_error_ns": 0.07095329506410053,
+  "metrics": {
+    "L0": {
+      "width_RMS_ns": 0.35536623797625855,
+      "edge_P99_percent_FS": 0.44032048104803834,
+      "final_width_RMS_ns": 0.3972475751942528,
+      "compared_word_outputs": 6000,
+      "compared_edges": 12000
+    },
+    "L1": {
+      "width_RMS_ns": 0.1611149257755692,
+      "edge_P99_percent_FS": 0.2242077232523298,
+      "final_width_RMS_ns": 0.17219499380633796,
+      "compared_word_outputs": 6000,
+      "compared_edges": 12000
+    },
+    "L2_static_candidate": {
+      "width_RMS_ns": 0.12220685071702499,
+      "edge_P99_percent_FS": 0.16718924429565968,
+      "final_width_RMS_ns": 0.11697195526873767,
+      "compared_word_outputs": 6000,
+      "compared_edges": 12000
+    }
+  },
+  "raw_sha256": "4a65aaf597263b978eb9da002777f0029d3e8d04e34313841e3555605be7aebf",
+  "prediction_sha256": "2af47043927e596ec3e06d127c77c451b79007b99beaa3bc8907033a38d3aa35",
+  "physical_deck_sha256": "90aba1e0e0cae9a849e1727e37f3666e822b779cd8454810c58afa8a6b4a4452",
+  "operating_point": {
+    "corner": "TT",
+    "temperature_C": 27,
+    "supply_V": 1.8
+  },
+  "period_ns": 200,
+  "external_width_domain_ns": [
+    4,
+    196
+  ],
+  "local_card_width_domain_ns": [
+    2,
+    198
+  ],
+  "limits": {
+    "width_max_ns": 2,
+    "fall_anchor_max_ns": 0.2,
+    "model_L2_edge_P99_percent_FS": 1,
+    "numerical_edge_ns": 0.01,
+    "numerical_state_V": 0.001,
+    "numerical_energy_relative": 0.001,
+    "physical_event_counts_exact": true,
+    "all_internal_phase_gaps_positive": true,
+    "aux_off_current_fraction": 0.01,
+    "scheduled_valid_warmups": 100,
+    "nested_targets": [
+      128,
+      1000,
+      5000
+    ],
+    "final_target_edges": 10000,
+    "tail_transactions": 3,
+    "checkpoint_resets": false,
+    "test_refit": false,
+    "MM_profile_separate_percent_FS": 1.5
+  },
+  "gate_pass": true,
+  "physical_scope": "schematic six-word network",
+  "model_parameters_refit": false,
+  "physical_run_repeated": false
+}
