@@ -24,6 +24,10 @@
     }
   },
   "files": {
+    ".gitattributes": {
+      "bytes": 9,
+      "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+    },
     ".gitignore": {
       "bytes": 76,
       "sha256": "09cbf6803327f422be8d6fd443c5eeafb045629be4394a6eb79239f07c5cf522"
