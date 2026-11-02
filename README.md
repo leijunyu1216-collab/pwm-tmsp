@@ -60,13 +60,29 @@ were unchanged. The original MM assessment reports FF edge P99 of 1.0202% FS,
 above the original 1% criterion; its separate 1.5% profile was introduced after
 observation. Neither result is presented as meeting the original MM criterion.
 
-Full analog trajectories are retained locally with their SHA-256 identifiers.
-This repository supplies event-level measurements for forecast/metric reproduction.
-A fresh transistor simulation additionally requires ngspice, the licensed SKY130
-PDK, and the complete physical environment; it is outside the simulator-free check.
+Full analog trajectories and historical artifacts are available in the
+[lossless raw experiment archive](https://github.com/leijunyu1216-collab/pwm-tmsp/releases/tag/artifacts-archive-20261102): 16,168 original files, 72.545 GiB.
+All 13 bundles passed complete local decode and remote SHA-256 verification.
+The [index](https://github.com/leijunyu1216-collab/pwm-tmsp/releases/download/artifacts-archive-20261102/ARTIFACT_INDEX.json) maps original paths and checksums.
+The simulator-free reproduction above uses event measurements and needs no raw download.
+
+To recover selected raw experiments, download [restore_artifacts.py](https://github.com/leijunyu1216-collab/pwm-tmsp/releases/download/artifacts-archive-20261102/restore_artifacts.py)
+and [artifact_offload.py](https://github.com/leijunyu1216-collab/pwm-tmsp/releases/download/artifacts-archive-20261102/artifact_offload.py) into the same directory:
+
+```sh
+python -m pip install numpy zstandard requests
+python restore_artifacts.py --path artifacts/snapshot_campaign_v61 --output /path/to/recovery
+```
+
+Omit --path to restore all data, or use --bundle bundle-001 for one bundle.
+Downloaded parts and recovered original files are verified against their SHA-256
+manifests. A fresh transistor simulation additionally requires ngspice, the
+licensed SKY130 PDK and the complete physical environment.
 
 ## License
 
 Original code and generated numeric model/result data are MIT licensed. See
 `LICENSE` and `NOTICE.md`. Runtime binaries, the PDK, private review materials,
-and the unpublished manuscript are not included.
+and the unpublished manuscript are outside this source checkout and frozen-model
+ZIP. The separate raw archive preserves third-party licenses and historical
+release materials as documented in its release notes.
