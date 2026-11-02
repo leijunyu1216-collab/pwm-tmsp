@@ -13,6 +13,8 @@ import sys
 import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]
+if not (ROOT/'RELEASE_MANIFEST.json').exists() and (ROOT/'release/pwm-tmsp/RELEASE_MANIFEST.json').exists():
+    ROOT = ROOT/'release/pwm-tmsp'
 
 
 def sha(p):
